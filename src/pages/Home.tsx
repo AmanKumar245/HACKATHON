@@ -7,6 +7,7 @@ import MapComponent from '../components/common/MapComponent';
 import EmergencyButton from '../components/user/EmergencyButton';
 import useReportStore from '../store/reportStore';
 
+// Main
 const Home: React.FC = () => {
   const { reports } = useReportStore();
   
